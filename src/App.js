@@ -1,15 +1,23 @@
 import React from "react"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+
 import "./App.css"
-import logo from "./img/logo.svg"
+import Header from "./components/Header"
+import Places from "./pages/Places"
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
-        <img src={logo} alt="" />
-      </header>
-      <h1 className="title">Lugares</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+
+        <Switch>
+          <Route path="/">
+            <Places />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   )
 }
 

@@ -1,0 +1,33 @@
+import React from "react"
+import * as styles from "./Places.module.css"
+
+const Places = () => {
+  const restaurants = [
+    { name: "Silva Lanches", menuItems: 23 },
+    { name: "Z Café", menuItems: 54 },
+    { name: "Canal Café - PUCRS", menuItems: 31 },
+    { name: "Palatu's - PUCRS", menuItems: 29 }
+  ]
+  return (
+    <>
+      <h1 className="title">Lugares</h1>
+      <h2 className="subtitle">6 lugares cadastrados</h2>
+
+      {restaurants.map((restaurant, key) => (
+        <div className={styles.restaurant} key={key}>
+          <a className={styles.restaurant__info} href="">
+            <h3 className={styles.restaurant__name}>{restaurant.name}</h3>
+            <p className={styles.restaurant__dishes}>
+              {restaurant.menuItems} pratos
+            </p>
+          </a>
+          <a href="" className={styles.restaurant__btnAdd}>
+            <span className={styles.restaurant__btnAdd__cross}></span>
+          </a>
+        </div>
+      ))}
+    </>
+  )
+}
+
+export default Places
