@@ -1,0 +1,15 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
+  position: relative;
+  text-align: center;
+}
+
+.header__arrow {
+  background: none;
+  border: none;
+  left: 0;
+  position: absolute;
+}

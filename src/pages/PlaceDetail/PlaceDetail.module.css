@@ -1,0 +1,66 @@
+.dish {
+  background-color: #464646;
+  border-left: solid 6px #f3aa00;
+  border-radius: 6px;
+  box-shadow: 0px 4px 16px #00000029;
+  color: #fff;
+  flex: 1;
+  margin: 15px 0;
+  min-height: 127px;
+  padding: 12px 17px;
+}
+
+.dish__header {
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.dish__name {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.dish__price {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-left: auto;
+}
+
+.dish__description {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+.dish__btnAdd {
+  align-self: center;
+  background-color: #f3aa00;
+  border-radius: 50%;
+  bottom: 10px;
+  height: 64px;
+  right: 10px;
+  position: absolute;
+  width: 64px;
+}
+
+.dish__btnAdd__cross {
+  background: #000;
+  display: block;
+  height: 22px;
+  left: 31px;
+  position: relative;
+  top: 21px;
+  width: 2px;
+}
+
+.dish__btnAdd__cross:after {
+  background: #000;
+  content: "";
+  height: 2px;
+  left: -10px;
+  position: absolute;
+  top: 10px;
+  width: 22px;
+}
