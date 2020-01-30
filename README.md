@@ -8,7 +8,7 @@ Clone this repository in your computer:
 $ git clone https://github.com/ricardopdj/ShareEat.git
 ```
 
-Or [download](https://github.com/ricardopdj/ShareEat.git) it as a ZIP file.
+Or [download](https://github.com/ricardopdj/ShareEat/archive/master.zip) it as a ZIP file.
 
 ### Installing
 
