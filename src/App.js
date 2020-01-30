@@ -1,11 +1,12 @@
 import React from "react"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
-import "./App.css"
 import Header from "./components/Header"
 import Places from "./pages/Places"
 import PlaceDetail from "./pages/PlaceDetail"
 import DishForm from "./pages/DishForm"
+
+import "./App.css"
 
 function App() {
   return (

@@ -38,10 +38,10 @@
   align-self: center;
   background-color: #f3aa00;
   border-radius: 50%;
-  bottom: 10px;
+  bottom: 25px;
   height: 64px;
-  right: 10px;
-  position: absolute;
+  right: 25px;
+  position: fixed;
   width: 64px;
 }
 

@@ -7,13 +7,13 @@ const PlaceDetail = () => {
       name: "Xis Bacon",
       description:
         "Pão, alface, tomate, carne, bacon, milho, ervilha, maionese, catchup, mostarda",
-      price: 28.5
+      price: 28.15
     },
     {
       name: "Xis Veg",
       description:
         "Pão, alface, tomate, bife de grão de bico, milho, ervilha, maionese",
-      price: 22.5
+      price: 22.25
     },
     {
       name: "Bauru Picanha",
@@ -24,13 +24,13 @@ const PlaceDetail = () => {
       name: "Xis Bacon",
       description:
         "Pão, alface, tomate, carne, bacon, milho, ervilha, maionese, catchup, mostarda",
-      price: 28.5
+      price: 28.25
     },
     {
       name: "Xis Veg",
       description:
         "Pão, alface, tomate, bife de grão de bico, milho, ervilha, maionese",
-      price: 22.5
+      price: 22.25
     },
     {
       name: "Bauru Picanha",
